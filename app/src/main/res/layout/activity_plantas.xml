@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="isiasromero.fca.PLANTAS"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:background="#FFFFFFFF"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:background="#FFFFFFFF"
+            android:layout_weight="0.28" />
+
+        <Button
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:text="Tuberculos"
+            android:id="@+id/buttonTuber"
+            android:background="#39eb15"
+            android:textColor="#fafbfd"
+            android:textStyle="normal|bold|italic"
+            style="@style/Animation.AppCompat.DropDownUp" />
+
+        <TextView
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView10" />
+
+        <Button
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:text="Frutales"
+            android:id="@+id/button3"
+            android:background="#39eb15"
+            android:textColor="#fafbfd"
+            android:textStyle="normal|bold|italic"
+            style="@style/Animation.AppCompat.DropDownUp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView11" />
+
+        <Button
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:text="Cereales"
+            android:id="@+id/button2"
+            android:background="#39eb15"
+            android:textColor="#fafbfd"
+            android:textStyle="normal|bold|italic"
+            style="@style/Animation.AppCompat.DropDownUp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView12" />
+
+        <Button
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:text="Maderables"
+            android:id="@+id/button5"
+            android:background="#39eb15"
+            android:textColor="#fafbfd"
+            android:textStyle="normal|bold|italic"
+            style="@style/Animation.AppCompat.DropDownUp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView13" />
+
+        <Button
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:text="Ornamentales"
+            android:id="@+id/button4"
+            android:background="#39eb15"
+            android:textColor="#fafbfd"
+            android:textStyle="normal|bold|italic"
+            style="@style/Animation.AppCompat.DropDownUp" />
+
+    </LinearLayout>
+</RelativeLayout>
