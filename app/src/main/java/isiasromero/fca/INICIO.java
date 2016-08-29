@@ -28,4 +28,5 @@ public class INICIO extends AppCompatActivity {
         Timer timer = new Timer();
         timer.schedule(task,retraso);
     }
+	//Este es un "cambio" que hice en el codigo
 }
